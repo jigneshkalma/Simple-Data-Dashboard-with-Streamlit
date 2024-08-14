@@ -2,11 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-image_directory = "C:\\interview\\th.jpeg"
-image = Image.open(image_directory)
-
 PAGE_CONFIG = {"page_title": "Simple Data Dashboard",
-               "page_icon": image,
                "layout": "centered",
                "initial_sidebar_state": "auto"}
 
